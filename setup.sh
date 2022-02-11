@@ -1,4 +1,4 @@
-#Script By Jojo22XCodeNetwork
+#Script By xRemiX
 #!/bin/bash
 
 if [ "${EUID}" -ne 0 ]; then
@@ -19,8 +19,7 @@ echo -e "${green}Permission Accepted...${NC}"
 else
 echo -e "${red}Permission Denied!${NC}";
 echo "Please Contact Admin"
-echo "Telegram : t.me/Jojo22XCode"
-echo "Whatsapp : 6281807909137"
+echo "Telegram : t.me/wahabitol"
 rm -f setup.sh
 exit 0
 fi
@@ -528,12 +527,10 @@ echo "   - Full Orders For Various Services" | tee -a log-install.txt
 echo "   - White Label" | tee -a log-install.txt
 echo "   - Installation Log --> /root/log-install.txt"  | tee -a log-install.txt
 echo ""  | tee -a log-install.txt
-echo "   - Dev/Main                : Jojo22XCodeNETWORK"  | tee -a log-install.txt
-echo "   - Telegram                : t.me/Jojo22XCode"  | tee -a log-install.txt
-echo "   - Instagram               : @Jojo22XCode"  | tee -a log-install.txt
-echo "   - Whatsapp                : 6281807909137"  | tee -a log-install.txt
-echo "   - Facebook                : fb.com/Jojo22XCode" | tee -a log-install.txt
-echo "------------------Script Created By Jojo22XCode-----------------" | tee -a log-install.txt
+echo "   - Dev/Main                : xRemiX"  | tee -a log-install.txt
+echo "   - Telegram                : t.me/wahabitol"  | tee -a log-install.txt
+echo "   - Facebook                : fb.com/xRemiX" | tee -a log-install.txt
+echo "------------------Script Created By xRemiX-----------------" | tee -a log-install.txt
 echo ""
 echo " reboot 10 Sec"
 sleep 10

@@ -3,12 +3,12 @@ red='\e[1;31m'
 green='\e[0;32m'
 NC='\e[0m'
 MYIP=$(wget -qO- ipv4.wildyproject.com);
-echo "Script By Jojo22XCode"
+echo "Script By xRemiX"
 clear
 echo start
 sleep 0.5
 source /var/lib/premium-script/ipvps.conf
-domain=$IP
+domain=$(sed -n '1 p' /etc/v2ray/domain | cut -d' ' -f1)
 systemctl stop v2ray
 systemctl stop v2ray@none
 /root/.acme.sh/acme.sh --issue -d $domain --standalone -k ec-256

@@ -17,7 +17,7 @@ echo -e "${green}Permission Accepted...${NC}"
 else
 echo -e "${red}Permission Denied!${NC}";
 echo "Please Contact Admin"
-echo "Telegram t.me/Jojo22XCode"
+echo "Telegram t.me/xRemiX"
 echo "WA 083803284713"
 rm -f setup.sh
 exit 0
@@ -32,7 +32,7 @@ CITY=$(curl -s ipinfo.io/city )
 WKT=$(curl -s ipinfo.io/timezone )
 IPVPS=$(curl -s ifconfig.me/ip )
 echo -e ""
-echo -e "Jojo22XCode SSH"
+echo -e "xRemiX SSH"
 echo -e ""
 echo -e "$m-----------------------------------------------------------------$y"
 echo -e "$m1 IP Vps       : $IPVPS"
@@ -134,4 +134,4 @@ echo -e "* about        : Info Script Auto Install"
 echo -e "* exit         : Exit From VPS "
 echo -e ""
 echo -e "$m================================================================$y"
-echo -e " $yy Jojo22XCode $y"
+echo -e " $yy xRemiX $y"

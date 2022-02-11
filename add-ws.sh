@@ -3,7 +3,7 @@ red='\e[1;31m'
 green='\e[0;32m'
 NC='\e[0m'
 MYIP=$(wget -qO- icanhazip.com);
-echo "Script By Jojo22XCode"
+echo "Script By xRemiX"
 clear
 source /var/lib/premium-script/ipvps.conf
 if [[ "$IP" = "" ]]; then
@@ -40,7 +40,7 @@ cat>/etc/v2ray/$user-tls.json<<EOF
       "id": "${uuid}",
       "aid": "0",
       "net": "ws",
-      "path": "/Jojo",
+      "path": "/remi",
       "type": "none",
       "host": "",
       "tls": "tls"
@@ -55,7 +55,7 @@ cat>/etc/v2ray/$user-none.json<<EOF
       "id": "${uuid}",
       "aid": "0",
       "net": "ws",
-      "path": "/Jojo",
+      "path": "/remi",
       "type": "none",
       "host": "",
       "tls": "none"
@@ -78,8 +78,8 @@ echo -e "id             : ${uuid}"
 echo -e "alterId        : 0"
 echo -e "Security       : auto"
 echo -e "network        : ws"
-echo -e "path TLS       : /Jojo"
-echo -e "path non TLS   : /Jojo"
+echo -e "path TLS       : /remi"
+echo -e "path non TLS   : /remi"
 echo -e "Created        : $created"
 echo -e "Expired        : $exp"
 echo -e "================================="
@@ -88,5 +88,5 @@ echo -e "================================="
 echo -e "link none TLS  : ${vmesslink2}"
 echo -e "================================="
 echo -e ""
-echo -e "Script By Jojo22XCode"
+echo -e "Script By xRemiX"
 echo -e ""

@@ -53,4 +53,4 @@ echo " ==========================" | lolcat
 echo " Username     : $user"
 echo " Aktif Sampai : $expe"
 echo " ==========================" | lolcat
-echo " Script By Jojo22XCode"
+echo " Script By xRemiX"

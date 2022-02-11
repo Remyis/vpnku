@@ -51,4 +51,4 @@ echo " ==========================" | lolcat
 echo " Client Name : $user"
 echo " Expired On  : $exp"
 echo " ==========================" | lolcat
-echo " Script By SSH Jojo22XCode NETWORK"
+echo " Script By SSH xRemiX NETWORK"
