@@ -15,7 +15,7 @@ chmod +x /usr/local/bin/ws-stunnel
 # Installing Service
 cat > /etc/systemd/system/ws-stunnel.service << END
 [Unit]
-Description=Python Edu Proxy By Jojo22XCode
+Description=Python Edu Proxy By xRemiX
 Documentation=https://gua-mau.online
 After=network.target nss-lookup.target
 
