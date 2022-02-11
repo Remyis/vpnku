@@ -2,7 +2,7 @@
 # /usr/local/bin/ws-openssh
 # /usr/local/bin/ws-stunnel
 [Unit]
-Description=SSH Over Websocket Python Jojo22XCode
+Description=SSH Over Websocket Python xRemiX
 Documentation=https://google.com
 After=network.target nss-lookup.target
 

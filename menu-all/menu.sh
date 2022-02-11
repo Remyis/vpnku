@@ -10,8 +10,7 @@ echo -e "${green}Permission Accepted...${NC}"
 else
 echo -e "${red}Permission Denied!${NC}";
 echo "Please Contact Admin"| lolcat
-echo "Telegram : t.me/Jojo22XCode"
-echo "Whatsapp : 6281807909137"
+echo "Telegram : t.me/wahabitol"
 exit 0
 fi
 
